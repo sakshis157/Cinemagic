@@ -18,7 +18,7 @@ body {
 }
 
 .app {
-   padding: 4rem;
+   padding: 2rem 3px 2rem 3px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -26,15 +26,16 @@ body {
 }
 
 h1 {
-   font-size: 5rem;
+   font-size: 7rem;
    letter-spacing: 0.9px;
-   background: linear-gradient(90deg,
-         rgb(220, 163, 135) 80%,
-         #f1d22000 100%);
-   background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+   color: #f9d3b4;
    width: fit-content;
+   font-family: cursive;
+}
+
+h1:hover{
+   color: #e4decc;
+   transform: translateY(-3px);
 }
 
 h3{
@@ -56,8 +57,7 @@ h3{
    padding: 1.5rem 1.75rem;
    border-radius: 3rem;
    background: #e8eded;
-   -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-   box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+   
 }
 
 .search input {
@@ -71,6 +71,13 @@ h3{
    outline: none;
    color: #514b4b;
    background: #e8eded;
+}
+
+.search:hover{
+     -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+      box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+      transform: translateY(-3px);
+      
 }
 
 .search img {
@@ -234,4 +241,5 @@ h3{
       margin: 1rem;
    }
 }
+
 
